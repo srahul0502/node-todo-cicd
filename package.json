@@ -10,7 +10,8 @@
   },
   "scripts": {
     "start": "node app.js",
-    "test": "mocha --recursive --exit"
+    "test": "mocha --recursive --exit",
+    "build": "echo 'No build step required for now'"  // Add your build steps here (e.g., transpiling or bundling)
   },
   "author": "riaan@entersekt.com",
   "description": "Basic to do list exercise",
